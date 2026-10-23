@@ -63,7 +63,7 @@ Each script will generate output files (CSV, PNG, TIFF, SVG) in the same directo
 
 ## 📝 Citation
 The associated paper is currently under review. If you use this code, please cite the paper (once published) and this repository.  
-A temporary citation format:
+A temporary citation format: 
 > Li Y., Wang W., et al. Irreversible succession in deep‑sea chemosynthetic ecosystems. *Under review*.
 The full author list and journal information will be updated after acceptance.
 
