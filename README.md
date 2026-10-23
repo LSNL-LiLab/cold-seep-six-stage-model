@@ -40,7 +40,6 @@ Or install all at once: `pip install -r requirements.txt`
 | `Feature_Importance_Heatmap.py` | Heatmap of normalised feature importance |
 | `SHAP_Distance_to_Vent_Curve.py` | SHAP dependence curve for distance to vent |
 | `Dominant_Community_Matrix.py` | Matrix of dominant community type probability |
-| `Fig5c_Tectonic_Stage_Comparison.py` | Bar chart of seep stage percentages by tectonic margin |
 | `Binary_SHAP_Plots/` | Trained RF models and SHAP figures |
 
 ## 🚀 How to run
@@ -59,7 +58,6 @@ python Binary_SHAP_Analysis.py
 python Feature_Importance_Heatmap.py
 python SHAP_Distance_to_Vent_Curve.py
 python Dominant_Community_Matrix.py
-python Fig5c_Tectonic_Stage_Comparison.py
 ```
 Each script will generate output files (CSV, PNG, TIFF, SVG) in the same directory.
 
