@@ -13,7 +13,7 @@ This repository contains the Python scripts used for:
 - BIC‑based optimal cluster number evaluation.
 - Global comparison of cold‑seep developmental stages across tectonic settings.
 
-## 🛠️ Dependencies
+## 🛠️ System requirements
 
 Python 3.8+ and the following packages:
 
@@ -42,7 +42,7 @@ Or install all at once: `pip install -r requirements.txt`
 | `Dominant_Community_Matrix.py` | Matrix of dominant community type probability |
 | `Binary_SHAP_Plots/` | Trained RF models and SHAP figures |
 
-## 🚀 How to run
+## 🚀 Demo & Instructions for use
 
 1. Ensure the required data file `1.Biological Statistics.csv` is placed in the root directory.
 2. Execute scripts in the following order:
@@ -60,6 +60,13 @@ python SHAP_Distance_to_Vent_Curve.py
 python Dominant_Community_Matrix.py
 ```
 Each script will generate output files (CSV, PNG, TIFF, SVG) in the same directory.
+## ⚙️ Installation guide
+
+1. Clone this repository:
+```bash
+git clone https://github.com/LSNL-LiLab/cold-seep-six-stage-model.git
+```
+Typical install time on a normal desktop computer: < 40 minutes.
 
 ## 📝 Citation
 The associated paper is currently under review. If you use this code, please cite the paper (once published) and this repository.  
@@ -68,4 +75,4 @@ A temporary citation format:
 The full author list and journal information will be updated after acceptance.
 
 📧 Contact
-For questions, contact 1406173009@qq.com.
+For questions, contact ylli@lsnl.cn.
